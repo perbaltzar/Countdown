@@ -1,4 +1,4 @@
-const endDate = new Date("Sep 2, 2019 08:30:00").getTime();
+const endDate = new Date("Sep 16, 2019 09:00:00").getTime();
 
 let x = setInterval(function () {
 
@@ -19,7 +19,7 @@ let x = setInterval(function () {
 
     if (difference < 0) {
         clearInterval(x);
-        document.getElementById("timer").innerHTML = "DAGS ATT BÖRJA PLUGGA PÅ YRGO!"
+        document.getElementById("timer").innerHTML = "ÄNTLIGEN DAGS FÖR SKOLA IGEN!"
     }
 }, 1000);
 
