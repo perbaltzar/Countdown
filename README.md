@@ -4,4 +4,4 @@ Countdown to school start using vanilla JS
 
 
 
-<img src="https://media.giphy.com/media/MLFLzuFc5MInK/giphy.gif">
+<img src="https://media.giphy.com/media/ukMiDlCmdv2og/giphy.gif">
