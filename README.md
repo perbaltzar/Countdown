@@ -1,6 +1,7 @@
 # Countdown
 
-Countdown to school start using vanilla JS
+Originally created to see how many days, hours, minutes and seconds there was left until I started studying web development at YRGO.
+Now I just update the countdown to see the time remaining until the first lesson of the week.
 
 
 
