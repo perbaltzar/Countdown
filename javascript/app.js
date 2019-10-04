@@ -1,4 +1,4 @@
-const endDate = new Date("Sep 30, 2019 09:00:00").getTime();
+const endDate = new Date("Oct 8, 2019 09:00:00").getTime();
 
 let x = setInterval(function () {
 
