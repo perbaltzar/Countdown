@@ -1,8 +1,19 @@
-const endDate = new Date("Oct 8, 2019 09:00:00").getTime();
+const shouldWeAddAnotherWeek = (endDate, rightNow) => {
+    while (endDate <= rightNow){
+        endDate.setDate(endDate.getDate() + 7);
+    }
+    return endDate.getTime();
+}
+
+const realEndDate = new Date("Oct 7, 2019 09:00:00");
+
+const endDate = shouldWeAddAnotherWeek(realEndDate, new Date());
 
 let x = setInterval(function () {
 
     let rightNow = new Date().getTime();
+
+    
 
     let difference = endDate - rightNow;
 
